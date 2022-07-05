@@ -1,5 +1,5 @@
 {
-  function playGame(playerInput) {
+  const playGame = function playGame(playerInput) {
 
       clearMessages();
 
@@ -56,33 +56,3 @@
       playGame(3);
   });
 }
-
-/*
-
-if(randomNumber == 1){
-  computerMove = 'kamień';
-} else if (randomNumber == 2){
-    computerMove = 'papier';
-} else {
-  computerMove = 'nożyce';
-}
-
-*/
-
-
-
-/*
-
-if(playerInput == '1'){
-  playerMove = 'kamień';
-} else if (playerInput == '2'){
-  playerMove = 'papier';
-} else if (playerInput == '3'){
-    playerMove = 'nożyce';
-} else {
-  playerMove = 'niepoprawna liczba';
-} 
-
-*/
-
-
