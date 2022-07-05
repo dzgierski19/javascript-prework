@@ -27,7 +27,7 @@
 
       const displayResult = function displayResult(argComputerMove, argPlayerMove) {
 
-          printMessage('Zagrałem ' + argComputerMove + ' a Ty ' + argPlayerMove);
+          printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
 
           if (argComputerMove == 'kamień' && argPlayerMove == 'papier') {
               return 'Wygrywasz!';
